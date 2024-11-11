@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/threeRendererEngine.iml" filepath="$PROJECT_DIR$/threeRendererEngine.iml" />
+      <module fileurl="file://$PROJECT_DIR$/threeDRendererEngine.iml" filepath="$PROJECT_DIR$/threeDRendererEngine.iml" />
     </modules>
   </component>
 </project>
