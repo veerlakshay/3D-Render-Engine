@@ -1,10 +1,11 @@
-//Why would you want to build a 3D engine?
+package threeDRenderEngine;//Why would you want to build a 3D engine?
 // At the very least, it will really help understanding
 // how real modern engines do their black magic.
 // Also it is sometimes useful to add 3D rendering capabilities
 // to your application without calling to huge external dependencies.
 // In case of Java, that means that you can build 3D viewer app with
 // zero dependencies (apart from Java APIs) that will run almost anywhere - and fit into 50kb!
+
 
 import javax.swing.*;
 import java.awt.*;
@@ -82,31 +83,6 @@ public class DemoViewer {
 
 }
 
-//Vertex is simply a structure to store our three coordinates (X, Y and Z),
-// and triangle binds together three vertices and stores its color.
 
-class Vertex{
-    double x;
-    double y;
-    double z;
 
-    Vertex(double x , double y , double z){
-        this.x = x;
-        this.y = y;
-        this.z = z;
-    }
-}
 
-class Triangle {
-    Vertex v1;
-    Vertex v2;
-    Vertex v3;
-    Color color;
-
-    public Triangle(Vertex v1 , Vertex v2 ,Vertex v3, Color color) {
-        this.v1 = v1;
-        this.v2 = v2;
-        this.v3 = v3;
-        this.color = color;
-    }
-}
