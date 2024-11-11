@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a8076ba3-1871-44e8-9ecc-3e30f681cefa" name="Changes" comment="Vertex and Triangle class created">
-      <change beforePath="$PROJECT_DIR$/src/DemoViewer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/threeDRenderEngine/DemoViewer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
